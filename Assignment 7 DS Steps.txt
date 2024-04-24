@@ -1,0 +1,39 @@
+create web service first
+
+new web service -> MyWebService
+
+Web Services -> MyWebService -> Add operation
+
+right click on project -> Build -> Deploy
+
+MyWebService -> Test Web Service
+
+--------------------------------------------
+
+WebServiceClient
+
+Web pages -> WEB-INF -> INdex.html
+
+windows -> IDE tools -> palette -> form -> calcServlet 
+
+<input type="text" name="number1" />
+
+<input type="submit" value="Submit" />
+
+
+2 input 1 submit
+
+new -> web service client -> Web Service References
+
+new -> Servlet -> calcServlet
+
+check -> add information to deployment descriptor
+
+
+try -> double num1,num2;
+
+num1 = Double.parseDouble(request.getParameter("number1"));
+
+out.println("Addition is " + addition(num1,num2));
+ 
+clean & build
